@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.notifica.MainActivity">
+
+    <TextView
+        android:id="@+id/textNofitication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Simple Notification"
+        android:layout_below="@+id/textNofitication"/>
+
+
+    <Button
+        android:id="@+id/btnInbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Inbox Notification"
+        android:layout_below="@+id/btnSimple"/>
+
+
+    <Button
+        android:id="@+id/btnBigText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Big Text Notification"
+        android:layout_below="@+id/btnInbox"/>
+
+
+    <Button
+        android:id="@+id/btnBigNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Big Picture Notification"
+        android:layout_below="@+id/btnBigText"/>
+
+
+
+</RelativeLayout>
